@@ -1,0 +1,7 @@
+project:
+  name: "pfm"
+  category: "application"
+  description: "My PFM project documentation built with MooseDocs"
+  authors: ["Pabitra Kumar Sahoo"]
+  repo: "local"
+
