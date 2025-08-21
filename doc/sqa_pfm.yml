@@ -1,0 +1,9 @@
+directories:
+    - ${ROOT_DIR}/test/tests
+specs:
+    - tests
+dependencies:
+    - framework
+repos:
+    default: https://pabitra2906@github.com/pabitra2906/pfm.git (push)
+reports: !include ${ROOT_DIR}/doc/sqa_reports.yml

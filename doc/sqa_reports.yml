@@ -1,6 +1,27 @@
 Applications:
     pfm:
         app_types:
-            - pfmApp
+            - pfm
         content_directory: ${ROOT_DIR}/doc/content
+        remove:
+            - ${MOOSE_DIR}/framework/doc/remove.yml
         log_default: WARNING
+        show_warning: false
+
+Documents:
+    software_requirements_specification: sqa/pfm_srs.md
+    software_design_description: sqa/pfm_sdd.md
+    software_test_plan: sqa/pfm_stp.md
+    requirements_traceability_matrix: sqa/pfm_rtm.md
+    verification_validation_report: sqa/pfm_vvr.md
+    failure_analysis_report: sqa/pfm_far.md
+    software_library_list: sqa/pfm_sll.md
+    log_default: WARNING
+    show_warning: false
+
+Requirements:
+    pfm:
+        directories:
+            - ${ROOT_DIR}/test
+        log_default: WARNING
+        show_warning: false
